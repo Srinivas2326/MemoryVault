@@ -4,5 +4,11 @@
     "email": "srinivas237peddada@gmail.com",
     "passwordHash": "$2b$10$ocLjROFEDNHkw1j/hPl1hOmEImWg8C49EtCMennxf1T5.WVrxncpq",
     "createdAt": "2025-10-24T07:26:21.064Z"
+  },
+  {
+    "id": "1d608cb7-6d05-4e69-b155-c2ed80f0f324",
+    "email": "srinivas23peddada@gmail.com",
+    "passwordHash": "$2b$10$5qb4NBo0xJ/57vgnbaKdGe4FHyzrff3DhfXG3pDmSb6E5SUNYxRCW",
+    "createdAt": "2025-10-24T09:46:29.422Z"
   }
 ]
