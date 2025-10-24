@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Memory Vault</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Memory Vault</h1>
+
+    <div id="auth-section">
+      <div id="register-form" class="card hidden">
+        <h3>Register</h3>
+        <input id="reg-email" placeholder="Email" />
+        <input id="reg-password" type="password" placeholder="Password" />
+        <button id="btn-register">Register</button>
+        <p class="muted">Already have an account? <a href="#" id="show-login">Login</a></p>
+        <div id="reg-msg" class="msg"></div>
+      </div>
+
+      <div id="login-form" class="card">
+        <h3>Login</h3>
+        <input id="login-email" placeholder="Email" />
+        <input id="login-password" type="password" placeholder="Password" />
+        <button id="btn-login">Login</button>
+        <p class="muted">No account? <a href="#" id="show-register">Create one</a></p>
+        <div id="login-msg" class="msg"></div>
+      </div>
+    </div>
+
+    <div id="app-section" class="hidden">
+      <div class="card">
+        <h3>Upload Media</h3>
+        <input id="file-input" type="file" accept="image/*,video/*,audio/*" />
+        <div id="validation-msg" class="msg"></div>
+        <div id="preview" class="preview"></div>
+        <button id="btn-upload" disabled>Upload</button>
+
+        <div class="progress-wrapper hidden" id="progress-wrapper">
+          <progress id="progress" value="0" max="100"></progress>
+          <span id="progress-text"></span>
+        </div>
+
+        <div id="upload-result" class="msg"></div>
+      </div>
+
+      <div class="card">
+        <h3>Your Files</h3>
+        <ul id="file-list"></ul>
+      </div>
+
+      <button id="btn-logout" class="danger">Logout</button>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

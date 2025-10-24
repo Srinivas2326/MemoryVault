@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "id": "ea369345-38de-457a-bbc4-3e74a21178c6",
+      "originalName": "Screenshot (9).png",
+      "filename": "ea369345-38de-457a-bbc4-3e74a21178c6.png",
+      "mimeType": "image/png",
+      "size": 204583,
+      "url": "http://localhost:4000/uploads/ea369345-38de-457a-bbc4-3e74a21178c6.png",
+      "ownerId": "923cb2e6-2c6f-4b93-bd34-25ae0ea1d36e",
+      "createdAt": "2025-10-24T07:26:37.218Z"
+    },
+    {
+      "id": "8369a9f9-478c-499c-a43d-5dd6d91ad8a0",
+      "originalName": "Screenshot (13).png",
+      "filename": "8369a9f9-478c-499c-a43d-5dd6d91ad8a0.png",
+      "mimeType": "image/png",
+      "size": 522639,
+      "url": "http://localhost:4000/uploads/8369a9f9-478c-499c-a43d-5dd6d91ad8a0.png",
+      "ownerId": "923cb2e6-2c6f-4b93-bd34-25ae0ea1d36e",
+      "createdAt": "2025-10-24T07:28:30.057Z"
+    }
+  ]
+}
